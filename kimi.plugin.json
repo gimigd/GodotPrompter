@@ -1,0 +1,31 @@
+{
+  "name": "godot-prompter",
+  "version": "1.15.0",
+  "description": "Agentic skills framework for Godot 4.x game development — 56 domain-specific skills for GDScript and C#",
+  "license": "MIT",
+  "homepage": "https://github.com/jame581/GodotPrompter",
+  "author": {
+    "name": "Jan Mesarc"
+  },
+  "keywords": [
+    "godot",
+    "godot-4",
+    "gdscript",
+    "csharp",
+    "gamedev",
+    "skills",
+    "game-development"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "sessionStart": {
+    "skill": "using-godot-prompter"
+  },
+  "interface": {
+    "displayName": "GodotPrompter",
+    "shortDescription": "Godot 4.x game development skills — 56 domain skills + 9 sub-agents for GDScript and C#",
+    "longDescription": "Domain-specific Godot 4.x expertise for AI coding agents: project setup, architecture, gameplay systems, physics, 2D/3D, animation, shaders, audio, UI, multiplayer, testing, optimization, GDScript/C# patterns, and third-party addons. Skills are loaded on demand.",
+    "developerName": "Jan Mesarc",
+    "websiteURL": "https://github.com/jame581/GodotPrompter"
+  }
+}
